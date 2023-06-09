@@ -10,7 +10,7 @@ char str[50]="ruparani thupakula"
 User input : char str[50]
              cin>>str;
              
-             but it is ineffeiceinet method cin is delimter means it doesnot consider space eg: rupa is good  output: rupa //after space it skips
+             but it is ineffecinet method cin is delimter means it doesnot consider space eg: rupa is good  output: rupa //after space it skips
              use  get
              cin.get(str,50); //50 is size 
 "\0 " TERMINATES SIZE RUPA\0RANI GIVES OUTPUT:RUPA
@@ -18,6 +18,26 @@ User input : char str[50]
     ***no size considered n in string obj 
    user input:
    use *getline(cin,str);
+   
+   
+   
+   STRINGS OPERATIONS:
+   1.ACCESSING
+   2.CONCATATION:(+,.append(),strcat()
+      1. STR1 = STR1+STR2
+      2.STR1.APPEND(STR2)
+      3.strcat(str1,str2)
+   3.COMPARISON
+     1.strcmp(str1,str2) //3 cases 
+     ***if str2>str1 returns pos val  
+     str2<str1 returns neg val;
+     == return 0
+     2.COMPARE 
+     str1.compare(str2)
+     3.RELATIONAL : ==, >=, <=
+     ***str1==str2
+   
+   Find char which occurs max in a string
    
    
   

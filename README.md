@@ -14,7 +14,7 @@ User input : char str[50]
              use  get
              cin.get(str,50); //50 is size 
 "\0 " TERMINATES SIZE RUPA\0RANI GIVES OUTPUT:RUPA
-2.String str="rupa rani";//DMA
+2.String str="rupa rani";//DMA also if string s='a' // gives error cant compatable to typecasting to char
     ***no size considered n in string obj 
    user input:
    use *getline(cin,str);

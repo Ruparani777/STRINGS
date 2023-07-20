@@ -1,0 +1,12 @@
+class Solution {
+public:
+    int arraySign(vector<int>& a) {
+        int sign =1;
+        for(int i = 0; i < a.size(); i++) 
+        {
+            if(a[i] == 0) return 0;
+            if(a[i] < 0) sign=-1*sign;
+        }
+        return sign;
+    }
+};
